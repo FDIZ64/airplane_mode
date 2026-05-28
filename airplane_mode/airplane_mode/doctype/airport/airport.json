@@ -2,42 +2,42 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "prompt",
- "creation": "2026-05-19 20:32:56.527368",
+ "creation": "2026-05-28 14:17:09.712366",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "founding_year",
-  "customer_care_number",
-  "headquarters"
+  "code",
+  "city",
+  "country"
  ],
  "fields": [
   {
-   "fieldname": "founding_year",
-   "fieldtype": "Int",
-   "label": "Founding Year",
-   "non_negative": 1
-  },
-  {
-   "fieldname": "customer_care_number",
+   "fieldname": "code",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Customer Care Number",
+   "label": "Code ",
    "reqd": 1
   },
   {
-   "fieldname": "headquarters",
+   "fieldname": "city",
    "fieldtype": "Data",
-   "label": "Headquarters ",
+   "label": "City ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Data",
+   "label": "Country ",
    "reqd": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-05-19 21:32:23.267549",
+ "modified": "2026-05-28 14:18:52.384016",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
- "name": "Airline",
+ "name": "Airport",
  "naming_rule": "Set by user",
  "owner": "Administrator",
  "permissions": [
